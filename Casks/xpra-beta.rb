@@ -7,7 +7,7 @@ cask "xpra-beta" do
   homepage "https://www.xpra.org/"
 
   conflicts_with cask: [
-    "xpra"
+    "xpra",
   ]
 
   pkg "Xpra-x86_64.pkg"
